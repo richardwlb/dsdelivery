@@ -19,9 +19,8 @@ public class OrderController {
     private OrderService service;
 
     @GetMapping
-    public ResponseEntity<List<OrderDTO>> findALL(){
-       List<OrderDTO> list = service.findAll();
-       return ResponseEntity.ok().body(list);
-    }
-     
+	public ResponseEntity<List<OrderDTO>> findAll() {
+        List<OrderDTO> list = service.findAll();
+        return ResponseEntity.ok().body(list);
+	}
 }
