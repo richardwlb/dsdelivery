@@ -1,5 +1,5 @@
 // import React from 'react';
-// It is not necessary anymore in the new React
+// It is not necessary anymore in the new
 import './App.css';
 
 import Navbar from './components/Navbar';
