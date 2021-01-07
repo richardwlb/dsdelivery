@@ -1,7 +1,7 @@
 // import React from 'react';
 export default function StepsHeader(){
     return(
-      <header className="ordedrs-steps-cointainer">
+      <header className="orders-steps-container">
           <div className="orders-steps-content">
               <h1 className="steps-title">
                   SIGA AS <br/> ETAPAS
