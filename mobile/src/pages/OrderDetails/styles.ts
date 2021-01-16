@@ -24,5 +24,6 @@ export const styles = StyleSheet.create({
       letterSpacing: -0.24,
       fontFamily: 'OpenSans_700Bold'
     }
-  });
+});
 
+export default styles;

@@ -7,6 +7,7 @@ const Stack = createStackNavigator(); // Pilha de navegação
 
 import Home from './pages/Home';
 import Orders from './pages/Orders';
+import OrdersDetails from './pages/OrderDetails';
 
 export default function Routes(){
     return(
@@ -22,6 +23,7 @@ export default function Routes(){
             >
                 <Stack.Screen name="Home" component={Home} ></Stack.Screen>
                 <Stack.Screen name="Orders" component={Orders} ></Stack.Screen>
+                <Stack.Screen name="OrderDetails" component={OrdersDetails} ></Stack.Screen>
             </Stack.Navigator>
         </NavigationContainer>
     );
